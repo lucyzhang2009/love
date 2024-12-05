@@ -11,6 +11,7 @@ IMAGE_ENLARGE = 11  # 放大比例
 HEART_COLOR = "#e77c8e"  # 心的颜色#ff7171
 
 
+
 def heart_function(t, shrink_ratio: float = IMAGE_ENLARGE):
     """
     “爱心函数生成器”
@@ -181,3 +182,8 @@ if __name__ == '__main__':
     heart = Heart()
     draw(root, canvas, heart)
     root.mainloop()
+
+
+
+    
+    
